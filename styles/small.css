@@ -21,6 +21,10 @@ header img{
     display: flex;
     margin: 10px;
     padding: 20px;
+    align-items: center;
+}
+#pageTitle{
+    font-size: 2rem;
 }
 /*Navigation*/
 #menu{

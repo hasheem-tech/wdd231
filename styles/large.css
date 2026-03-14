@@ -1,0 +1,28 @@
+@media screen and (min-width:900px){
+    #menu{
+        display: none;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    .navigation.show{flex-direction: row;}
+
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+    .navigation li{
+        border-radius: 10px;
+    }
+    .about-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .courses #list{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

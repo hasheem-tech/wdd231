@@ -3,10 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hasheem Naveed">
+    <meta name="description" content="This webpage demonstrates my prerequisite knowledge by applying HTML, CSS, and JavaScript to the design and development of WDD231 course home page.">
     <title>Index</title>
+    <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <div class="logo">
+        <img src="images/logo.svg" alt="">
+        <h1>Hasheem Naveed</h1>
+        </div>
+        <a id="menu"></a>
+        <nav>
+            <ul class="navigation">
+            <li>Home</li>
+            <li>Chamber Project</li>
+            <li>Final Project</li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <div class="about-container">
+            <section>
+                <h3>About me</h3>
+                <p>My name is Hasheem Naveed. I'm studying bachelor's in Software development from BYU Pathway Connect and a Bachelors in Accounting and Finance from a local university. I'm interested in Data Science and in future want to analyse and model financial data. Using my knowledge in Web Development and software Development in future I want to create applications that represent and model world data in way that is both engaging and easy to comprehend.</p>
+            </section>
+            <section class="photo">
+                <h3>Student Photo</h3>
+                <div class="pic-container">
+                    <img src="images/mypic.jpeg" alt="Student's Photo">
+                </div>
+                
+            </section>
+        </div>
+        <div class="courses">
+            <h3>Web Certificate Courses</h3>
+            <nav>
+                <ul>
+                <li id="all">All</li>
+                <li id="cse">CSE</li>
+                <li id="wdd">WDD</li>
+            </ul>
+            </nav>
+            <section id="list"></section>
+            <p id="credit-display"></p>
+        </div>
+    </main>
+    <footer>
+        <div class="socials">
+            <i class="fa-brands fa-square-linkedin"></i>
+            <i class="fa-brands fa-square-github"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+        </div>
+        <div class="foot">
+        <p>©️ <span id="current-year"></span> ~ Hasheem Naveed ~ Pakistan</p>
+        <p id="last-modif"></p>
+        </div>
+    </footer>
 </body>
 </html>

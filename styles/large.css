@@ -8,6 +8,9 @@
         justify-content: space-around;
 
     }
+    #pageTitle{
+        font-size: 2rem;
+    }
     .navigation.show{flex-direction: row;}
 
     .navigation{

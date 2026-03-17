@@ -130,8 +130,10 @@ footer{
     color: white;
     display: grid;
     grid-template-columns: 1fr;
-    height: 350px;
 
+}
+footer div{
+    margin: .5rem;
 }
 footer p{
     font-size: 1.1rem;

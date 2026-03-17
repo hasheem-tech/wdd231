@@ -75,7 +75,6 @@ main h1{
     display: flex;
     gap: 3rem;
     justify-content: center;
-    margin: 50px;
 }
 
 .view-options img:hover{

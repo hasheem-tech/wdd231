@@ -1,0 +1,58 @@
+[
+  {
+    "company_name": "Allied Enterprise",
+    "address": "123 Main Street, Gujranwala, Punjab, Pakistan",
+    "phone": "+92 3000-000000",
+    "website": "https://www.alliedenterprise.com",
+    "image_file": "images/allied_logo.jpg",
+    "membership_level": "Gold"
+  },
+  {
+    "company_name": "Subhan Allah Cold Storage",
+    "address": "45 Industrial Road, Gujranwala, Punjab, Pakistan",
+    "phone": "+92 3001-000000",
+    "website": "https://www.subhanallah.com",
+    "image_file": "images/subhan_logo.jpg",
+    "membership_level": "Silver"
+  },
+  {
+    "company_name": "Silvex Trade",
+    "address": "78 Market Street, Gujranwala, Punjab, Pakistan",
+    "phone": "+92 3002-000000",
+    "website": "https://www.silvextrade.com",
+    "image_file": "images/silvex_logo.jpg",
+    "membership_level": "Member"
+  },
+  {
+    "company_name": "Gujranwala Ceramics",
+    "address": "10 Commerce Ave, Gujranwala, Punjab, Pakistan",
+    "phone": "+92 3003-000000",
+    "website": "https://www.gujranwalaceramics.com",
+    "image_file": "images/gc_logo.jpg",
+    "membership_level": "Gold"
+  },
+  {
+    "company_name": "Saman Agro Seeds",
+    "address": "22 Tech Park, Gujranwala, Punjab, Pakistan",
+    "phone": "+92 3004-000000",
+    "website": "https://www.samanagroseeds.com",
+    "image_file": "images/saman_logo.jpg",
+    "membership_level": "Silver"
+  },
+  {
+    "company_name": "Al Barqa",
+    "address": "9 Cargo Lane, Gujranwala, Punjab, Pakistan",
+    "phone": "+92 3005-000000",
+    "website": "https://www.albarqa.com",
+    "image_file": "images/albarqa_logo.jpg",
+    "membership_level": "Member"
+  },
+  {
+    "company_name": "Malik Bro International",
+    "address": "56 Industrial Park, Gujranwala, Punjab, Pakistan",
+    "phone": "+92 3006-000000",
+    "website": "https://www.malikbro.com",
+    "image_file": "images/malik_logo.jpg",
+    "membership_level": "Gold"
+  }
+]

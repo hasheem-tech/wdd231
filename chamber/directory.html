@@ -6,19 +6,72 @@
 
     <meta name="author" content="Hasheem Naveed">
     <meta name="description" content="Directory page for Gujranwala Chamber of Commerce website. Made for WDD231 project assignment">
-    
+    <link rel="icon" href="images/favicon(1).ico">
+    <title>Directory - GCC</title>
+
     <!--Facebook Metatags-->
     <meta property="og:title" content="Directory for GCC">
     <meta property="og:description" content="This page is the directory page for Gujranwala Chamber of Commerce website. Made fo WDD231 project assignment.">
     <meta property="og:image" content="https://raw.githubusercontent.com/hasheem-tech/wdd231/main/chamber/images/GCC-logo.svg">
     <meta property="og:url" content="https://hasheem-tech.github.io/wdd231/chamber/directory.html">
     <meta property="og:type" content="website">
-
-    <link rel="icon" href="images/favicon(1).ico">
-    <title>Directory - GCC</title>
+    <!--Styling-->
+    <link rel="stylesheet" href="styles/directory-small.css">
+    <link rel="stylesheet" href="styles/directory-large.css">
+   
+    <!--Javscript-->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/members.js" defer></script>
 
 </head>
 <body>
-    
+    <header>
+        <div class="brand-header">
+            <img fetchpriority="high" src="images/GCC-logo.svg" alt="GCC logo">
+            <p id="brand-name"><span>Gujranwala</span> 
+                <span>Chamber of</span> 
+                <span>Commerce</span></p>
+        </div>
+        <a id="menu"></a>
+        <nav>
+            <ul id="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="view-options">
+            <img width="30" height="30" fetchpriority="high" loading="lazy" id="grid" src="images/grid.png" alt="">
+            <img width="30" height="30"  fetchpriority="high" loading="lazy" id="list" src="images/list.png" alt="">
+        </div>
+        <div id="cards">
+
+        </div>
+    </main>
+    <footer>
+        <div class="contact">
+            <p id="foot-title">The Gujranwala Chamber of Commerce (GCC)</p>
+            <p>123/ABC Street, Area DEF</p>
+            <p>Gujranwala, Punjab, Pakistan</p>
+            <p>info@gujranwalacc.org</p>
+            <p>+92 0000-0000000</p>
+        </div>
+
+        <div class="socials">
+            <img loading="lazy" width="45" height="45" src="images/x.svg" alt="x icon">
+            <img loading="lazy" width="45" height="45" src="images/youtube.svg" alt="youtube icon">
+            <img loading="lazy" width="45" height="45" src="images/linkedin.svg" alt="linkedIn icon">
+        </div>
+        <div class="website-info">
+            <p>WDD 231 Class Project</p>
+            <p>Hasheem Naveed</p>
+            <p>&copy; <span id="current-year">2025</span> Gujranwala Chamber of Commerce</p>
+            <p id="last-modif"></p>
+        </div>
+    </footer>
 </body>
 </html>

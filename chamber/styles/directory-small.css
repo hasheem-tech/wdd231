@@ -9,8 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Segoe UI", Arial, sans-serif;
-    font-display: swap;
+    font-family: "Roboto", 'Segoe UI', Arial, sans-serif;
 }
 body{
     background-color: var(--background-color);
@@ -67,6 +66,10 @@ header{
 }
 #menu.show::before{
     content: "x";
+}
+main h1{
+    text-align: center;
+    margin: 1rem;
 }
 .view-options{
     display: flex;

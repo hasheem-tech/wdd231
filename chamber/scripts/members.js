@@ -17,7 +17,7 @@
           <p>${company.address}</p>
           <p>${company.phone}</p>
           <p><a>${company.website}</a></p>
-          <p class="membership"><strong>Membership:</strong> ${company.membership_level}</p>
+          <p class="membership"><strong>Membership Level:</strong> ${company.membership_level}</p>
         `;
           container.appendChild(card);
         }

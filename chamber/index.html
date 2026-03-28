@@ -23,13 +23,13 @@
     <!--Styling-->
     <link rel="stylesheet" href="styles/navigation-small.css">
     <link rel="stylesheet" href="styles/navigation-large.css">
-    <link rel="stylesheet" href="styles/directory-small.css">
-    <link rel="stylesheet" href="styles/directory-large.css">
-   
+    <link rel="stylesheet" href="styles/home-small.css">
+    <link rel="stylesheet" href="styles/home-large.css">
     <!--Javscript-->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
-    <script src="scripts/members.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/company-cards.js" defer></script>
 
 </head>
 <body>
@@ -51,14 +51,35 @@
         </nav>
     </header>
     <main>
-        <h1>LIST OF MEMBERS</h1>
-        <div class="view-options">
-            <img width="30" height="30" fetchpriority="high" loading="lazy" id="grid" src="images/grid.png" alt="">
-            <img width="30" height="30"  fetchpriority="high" loading="lazy" id="list" src="images/list.png" alt="">
-        </div>
-        <div id="cards">
-
-        </div>
+        <section class="hero">
+            <img src="images/hero.jpg" alt="hero image">
+            <a href="directory.html" class="hero-btn">Explore Chamber Members</a>
+        </section>
+        <section class="grid-section">
+            <div class="card card-event">
+                <h2>Current Event</h2>
+                <div class="event-content">
+                    <img src="images/alibaba.jpg" alt="Alibaba Logo">
+                    <div class="event-text">
+                    <h3>MOU Signing Ceremony</h3>
+                    <p><strong>Organizer:</strong> GCCI</p>
+                    <p><strong>Date:</strong> Wednesday, 18 February 2026</p>
+                    <p><strong>Time:</strong> 12:00 Noon</p>
+                    <p><strong>Type:</strong> MOU</p>
+                </div>
+            </div>
+            </div>
+            <div class="card card-weather">
+                <h2>Current Weather</h2>
+                <p id="currentWeather"></p>
+            </div>
+             <div class="card card-forecast">
+                <h2>Weather Forecast</h2>
+                <div id="forecastGrid" style="display:grid;gap:10px;"></div>
+            </div>
+        </section>
+        <section class="company-grid" id="companyGrid">
+        </section>
     </main>
     <footer>
         <div class="contact">

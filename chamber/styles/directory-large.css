@@ -1,33 +1,4 @@
 @media screen and (min-width: 1000px){
-    #menu{
-        display: none;
-    }
-    header{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-
-    }
-    #brand-name{
-        font-size:1.5rem;
-        
-    }
-    #brand-name span{
-        display: inline;
-    }
-    #navigation.show{flex-direction: row;}
-
-    #navigation{
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-    }
-    #navigation li{
-        background-color: transparent;
-        border: none;
-        
-
-    }
     #cards{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -38,10 +9,6 @@
     table{
         width: 100%;
         
-    }
-    footer{
-        grid-template-columns: 1fr 1fr 1fr;
-        align-items: center;
     }
 
 }

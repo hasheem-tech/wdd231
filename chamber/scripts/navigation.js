@@ -9,12 +9,18 @@ hambutton.addEventListener('click', () =>{
 
 
 const links = document.querySelectorAll('nav a');
-const current = window.location.pathname.split("/").pop();
+let current = window.location.pathname.split("/").pop();
+
+if(current === "" || current === "index.html"){
+  current = "index.html";
+}
 
 links.forEach(link => {
   if(link.getAttribute('href') === current){
-    link.parentElement.style.backgroundColor="black";
-    link.style.color="white";
-  
+    if(link.parentElement) {
+      link.parentElement.style.backgroundColor = "black";
+      link.parentElement.style.borderRadius = "25px";
+    }
+    link.style.color = "white";
   }
 });

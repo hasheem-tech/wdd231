@@ -28,4 +28,8 @@
     .courses #list{
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .popup{
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }

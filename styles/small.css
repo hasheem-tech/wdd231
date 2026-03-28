@@ -112,11 +112,44 @@ p{
     display: grid;
     grid-template-columns: 1fr;
 }
-.courses #list .card{
+.btn_container{
+    width: 98%;
+    margin: 5px;
+}
+.courses #list .course_btn{
     background-color: var(--black);
     border: 1px solid var(--black);
-    margin: 5px;
     color: var(--white);
+    width: 100%;
+}
+.course_btn:hover{
+    cursor: pointer;
+}
+.popup{
+    border-radius: 25px;
+    margin: 5px;
+    position: fixed;
+    top: 50%;
+    transform: translate(0%, -50%);
+    border: 1px solid black;
+}
+.popup h2{
+    position: relative;
+}
+.popup button{
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.popup button:hover{
+    cursor: pointer;
+}
+.popup h3{
+    margin: 10px;
 }
 #credit-display{
     text-align: center;

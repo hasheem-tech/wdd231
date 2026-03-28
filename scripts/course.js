@@ -86,20 +86,36 @@ const courses = [
 function createCourseCard(courses){
     list.innerHTML = '';
     creditcount = 0;
-    courses.forEach(course => {
+    courses.forEach((course, index) => {
+        const dialogid = `course-info${index}`;
         creditcount += course.credits;
-        const card = document.createElement('div');
-        card.classList.add('card');
+        const btn_container = document.createElement('div');
+        btn_container.classList.add('btn_container');
+        const course_btn = document.createElement('button');
+        course_btn.classList.add('course_btn');
+        course_btn.setAttribute("popovertarget", dialogid);
+        course_btn.setAttribute("popovertargetaction", "show");
+
        
         const name = document.createElement('p');
          if (course.completed == true){
-            card.style.backgroundColor = "white";
-            card.style.color = "black";
+            course_btn.style.backgroundColor = "white";
+            course_btn.style.color = "black";
             name.innerHTML = "✅ "
         }
-        name.innerHTML += `${course.subject} ${course.number}`
-        card.append(name);
-        list.appendChild(card);
+        name.innerHTML += `${course.subject} ${course.number}`;
+        const dialog = document.createElement('div');
+        dialog.classList.add("popup");
+        dialog.setAttribute("id", dialogid);
+        dialog.setAttribute("popover", "");
+        dialog.innerHTML = `<div><h2>${course.subject} ${course.number}</h2><button class="close-button" popovertarget="${dialogid}" 
+        popovertargetaction="hide">X</button></div><h3>${course.title}</h3><p>${course.credits} Credits</p>
+        <p>Certificate: ${course.certificate}</p><p>${course.description}</p>
+        <p>Technology: ${course.technology.map(tech => tech).join(", ")}</p>`;
+        course_btn.append(name);
+        btn_container.appendChild(course_btn);
+        btn_container.appendChild(dialog);
+        list.appendChild(btn_container);
     })
     const creditDisplay = document.getElementById("credit-display");
     creditDisplay.innerText = `The total credits for courses listed above are ${creditcount}`;

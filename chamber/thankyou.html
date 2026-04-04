@@ -5,16 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="Hasheem Naveed">
-    <meta name="description" content="Home page for Gujranwala Chamber of Commerce website. Made for WDD231 project assignment">
+    <meta name="description" content="Thank you Page for form for Gujranwala Chamber of Commerce website. Made for WDD231 project assignment">
     <link rel="icon" href="images/favico.ico">
-    <title>Gujranwala Chamber of Commerce</title>
-
-    <!--Facebook Metatags-->
-    <meta property="og:title" content="Home Page for GCC">
-    <meta property="og:description" content="This page is the home page for Gujranwala Chamber of Commerce website. Made fo WDD231 project assignment.">
-    <meta property="og:image" content="https://hasheem-tech.github.io/wdd231/chamber/images/gcc_logo.jpg">
-    <meta property="og:url" content="https://hasheem-tech.github.io/wdd231/chamber/index.html">
-    <meta property="og:type" content="website">
+    <title>Page of Appreciation</title>
 
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,14 +16,11 @@
     <!--Styling-->
     <link rel="stylesheet" href="styles/navigation-small.css">
     <link rel="stylesheet" href="styles/navigation-large.css">
-    <link rel="stylesheet" href="styles/home-small.css">
-    <link rel="stylesheet" href="styles/home-large.css">
+    <link rel="stylesheet" href="styles/thankyou.css">
     <!--Javscript-->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
-    <script src="scripts/company-cards.js" defer></script>
-
+    <script src="scripts/thankyoupage.js" defer></script>
 </head>
 <body>
     <header>
@@ -50,38 +40,14 @@
             </ul>
         </nav>
     </header>
+
     <main>
-        <section class="hero">
-            <img src="images/hero.jpg" alt="hero image">
-            <a href="directory.html" class="hero-btn">Explore Chamber Members</a>
-        </section>
-        <h1>Gujranwala Chamber of Commerce</h1>
-        <section class="grid-section">
-            <div class="card card-event">
-                <h2>Current Event</h2>
-                <div class="event-content">
-                    <img src="images/alibaba.jpg" alt="Alibaba Logo">
-                    <div class="event-text">
-                    <h3>MOU Signing Ceremony</h3>
-                    <p><strong>Organizer:</strong> GCCI</p>
-                    <p><strong>Date:</strong> Wednesday, 18 February 2026</p>
-                    <p><strong>Time:</strong> 12:00 Noon</p>
-                    <p><strong>Type:</strong> MOU</p>
-                </div>
-            </div>
-            </div>
-            <div class="card card-weather">
-                <h2>Current Weather</h2>
-                <p id="currentWeather"></p>
-            </div>
-             <div class="card card-forecast">
-                <h2>Weather Forecast</h2>
-                <div id="forecastGrid"></div>
-            </div>
-        </section>
-        <section class="company-grid" id="companyGrid">
-        </section>
+        <div class="box">
+        <h2>Thank You!</h2>
+        <div id="output"></div>
+        </div>
     </main>
+
     <footer>
         <div class="contact">
             <p id="foot-title">The Gujranwala Chamber of Commerce (GCC)</p>

@@ -21,9 +21,14 @@ header{
     width: 120px;
     height: 120px;
 }
+.brand-header a{
+    text-decoration: none;
+    color: black;
+}
 .brand-header p{
     font-size: 1.2rem;
     text-wrap: wrap;
+    
 }
 .brand-header p span{
     display: block;

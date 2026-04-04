@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.box {
+  background: var(--secondary-color);
+  color: #e2e8f0;
+  padding: 30px 40px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+.box h2 {
+  margin-bottom: 20px;
+}
+
+#output {
+  text-align: left;
+}
+
+#output p {
+  background: var(--primary-color);
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin: 8px 0;
+  color: black;
+}

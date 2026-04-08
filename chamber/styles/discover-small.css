@@ -139,6 +139,7 @@ button {
   border-radius: 6px;
   background-color: var(--primary-color);
   cursor: pointer;
+  color: black;
 }
 .modal-content button:hover{
   background-color: white;

@@ -1,0 +1,138 @@
+.map-section {
+  text-align: center;
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.map-section p {
+  margin: 1rem 0;
+  color: var(--text-color);
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+/* Make iframe responsive */
+.map-container iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  border: 0;
+  border-radius: 12px;
+}
+
+
+.cards {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+h2{
+  text-align: center;
+  font-size: 2rem;
+  margin: 1.5rem;
+}
+.card {
+  display: grid;
+  gap: 1.5rem;
+  border-radius: 12px;
+  background: var(--background-color);
+  color: black;
+
+  grid-template-areas:
+    "title"
+    "image"
+    "address"
+    "desc"
+    "btn";
+}
+
+.card h3 { 
+  grid-area: title; 
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+.card figure { 
+  grid-area: image; 
+}
+.card address { 
+  grid-area: address; 
+}
+.card p { 
+  grid-area: desc; 
+}
+.card button { 
+  grid-area: btn; 
+}
+
+.card img {
+  max-width: 300px;
+  max-height: 200px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 6px;
+  background: var(--primary-color);
+  cursor: pointer;
+  width: 50%;
+  display: block;
+  margin: 1rem auto;
+}
+button:hover{
+  background-color: var(--secondary-color);
+}
+
+
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1000;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal-content {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 300px;
+  width: 90%;
+}
+
+.modal-content button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+.modal-content button:hover{
+  background-color: var(--background-color);
+}

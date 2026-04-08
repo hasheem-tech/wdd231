@@ -1,0 +1,13 @@
+@media (min-width: 726px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+  }
+  .card{
+    padding: 1rem;
+  }
+
+  .card button {
+    align-self: start;
+  }
+}

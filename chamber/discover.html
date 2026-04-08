@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="Hasheem Naveed">
-    <meta name="description" content="Thank you Page for form for Gujranwala Chamber of Commerce website. Made for WDD231 project assignment">
+    <meta name="description" content="Discover page for Gujranwala Chamber of Commerce website. Made for WDD231 project assignment">
     <link rel="icon" href="images/favico.ico">
-    <title>Page of Appreciation</title>
+    <title>Discover GCC</title>
+
+    <!--Facebook Metatags-->
+    <meta property="og:title" content="Home Page for GCC">
+    <meta property="og:description" content="This page is the discover page for Gujranwala Chamber of Commerce website. Made fo WDD231 project assignment.">
+    <meta property="og:image" content="https://hasheem-tech.github.io/wdd231/chamber/images/gcc_logo.jpg">
+    <meta property="og:url" content="https://hasheem-tech.github.io/wdd231/chamber/discover.html">
+    <meta property="og:type" content="website">
 
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,11 +23,14 @@
     <!--Styling-->
     <link rel="stylesheet" href="styles/navigation-small.css">
     <link rel="stylesheet" href="styles/navigation-large.css">
-    <link rel="stylesheet" href="styles/thankyou.css">
+    <link rel="stylesheet" href="styles/discover-small.css">
+    <link rel="stylesheet" href="styles/discover-medium.css">
+    <link rel="stylesheet" href="styles/discover-large.css">
     <!--Javscript-->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
-    <script src="scripts/thankyoupage.js" defer></script>
+    <script type="module" src="scripts/events.js"></script>
+
 </head>
 <body>
     <header>
@@ -40,14 +50,34 @@
             </ul>
         </nav>
     </header>
-
     <main>
-        <div class="box">
-        <h2>Thank You!</h2>
-        <div id="output"></div>
+        <div id="visit-modal" class="modal hidden">
+            <div class="modal-content">
+                <p id="visit-message"></p>
+                <button id="close-modal">Close</button>
+            </div>
         </div>
-    </main>
+        <section class="map-section">
+            <h2>Visit the Gujranwala Chamber of Commerce</h2>        
+            <p>
+                Located in the heart of Gujranwala’s Civil Lines area, the Chamber of Commerce serves as a central hub for business activities, networking, and industry development in the region. Whether you're attending an event, seeking business support, or exploring opportunities, this is where it all happens.
+            </p>
 
+            <div class="map-container">
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3377.1027257028763!2d74.18107507468072!3d32.17450451453495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f298ff78849a7%3A0x992a24e44175aedd!2sThe%20Gujranwala%20Chamber%20of%20Commerce%20and%20Industry!5e0!3m2!1sen!2s!4v1775541232715!5m2!1sen!2s"
+                allowfullscreen=""
+                loading="lazy">
+                </iframe>
+            </div>
+
+            <p>
+                Use the map above to get directions and plan your visit. The location is easily accessible and well-connected to major roads within the city.
+            </p>
+        </section>
+        <h2>Discover Upcoming Events</h2>
+        <div class="cards" id="cards"></div>
+    </main>
     <footer>
         <div class="contact">
             <p id="foot-title">The Gujranwala Chamber of Commerce (GCC)</p>

@@ -4,6 +4,11 @@ h1{
   margin: 2rem;
   font-weight: 900;
 }
+@media(max-width:400px){
+  h1{
+    font-size: 3rem;
+  }
+}
 .map-section {
   text-align: center;
   padding: 2rem 1rem;

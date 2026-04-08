@@ -9,7 +9,7 @@ events.forEach(event => {
   card.innerHTML = `
     <h3>${event.name}</h3>
     <figure>
-      <img src="${event.image}" alt="${event.name}">
+      <img loading="lazy" src="${event.image}" alt="${event.name}">
     </figure>
     <address>${event.address}</address>
     <p>${event.description}</p>

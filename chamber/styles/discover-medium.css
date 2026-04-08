@@ -10,4 +10,11 @@
   .card button {
     align-self: start;
   }
+  .card img{
+    overflow: hidden;
+  }
+ 
+  .card img:hover{
+    transform: scale(1.2);
+  }
 }

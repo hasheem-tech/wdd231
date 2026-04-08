@@ -95,8 +95,9 @@ button {
   display: block;
   margin: 1rem auto;
 }
-button:hover{
+.cards button:hover{
   background-color: var(--secondary-color);
+  color: white;
 }
 
 

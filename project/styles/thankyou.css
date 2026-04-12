@@ -20,4 +20,5 @@ main{
 #output p {
   margin: 8px 0;
   text-align: left;
+  overflow-wrap: break-word;
 }

@@ -17,7 +17,7 @@
 <body>
     <header>
         <div class="branding">
-            <a href="index.html"><img src="images/logo.svg" alt=""></a>
+            <img src="images/logo.svg" alt="">
             <h1><a href="index.html">Economy Explorer</a></h1>  
         </div>
         <a id="menu"></a>
@@ -44,22 +44,22 @@
 
     <form class="contact-form">
 
-      <label>Name</label>
-      <input type="text" placeholder="Your name">
+      <label for="name">Name</label>
+      <input id="name" type="text" placeholder="Your name">
 
-      <label>Email</label>
-      <input type="email" placeholder="Your email">
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="Your email">
 
-      <label>Purpose</label>
-      <select>
+      <label for="select">Purpose</label>
+      <select id="select">
         <option>General Inquiry</option>
         <option>Data Correction</option>
         <option>Suggest an Economic Event</option>
         <option>Other</option>
       </select>
 
-      <label>Message</label>
-      <textarea rows="6" placeholder="Write your message..."></textarea>
+      <label for="message">Message</label>
+      <textarea id="message" rows="6" placeholder="Write your message..."></textarea>
 
       <button type="submit">Send Message</button>
 

@@ -15,7 +15,6 @@
 }
 
 .contact-header p {
-    color: #555;
     max-width: 600px;
     margin: auto;
     line-height: 1.5;
@@ -35,7 +34,6 @@
 
 .contact-form label {
     font-size: 0.9rem;
-    color: #333;
 }
 
 .contact-form input,

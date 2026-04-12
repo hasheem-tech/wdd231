@@ -36,17 +36,18 @@ header{
 #menu{
     position: absolute;
     right: 2rem;
-    top: 2rem;
+    top: 1.5rem;
     cursor: pointer;
 }
 #menu::before{
     content: "≡";
-    color: var(--black);
+    color: black;
     font-size: 40px;
     font-weight: 900;
 }
 #menu.show::before{
     content: "x";
+    font-size: 2rem;
 }
 .navigation{
     display: none;
@@ -92,7 +93,6 @@ header{
 }
 
 .footer-brand p {
-    color: #555;
     line-height: 1.5;
 }
 
@@ -108,7 +108,6 @@ header{
 
 .footer-links li {
     margin-bottom: 6px;
-    color: #333;
 }
 
 .footer-links li:hover {
@@ -117,7 +116,6 @@ header{
 }
 
 .footer-info p {
-    color: #555;
     max-width: 250px;
     line-height: 1.5;
 }
@@ -128,5 +126,4 @@ header{
     padding-top: 15px;
     text-align: center;
     font-size: 0.85rem;
-    color: #777;
 }

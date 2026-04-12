@@ -44,7 +44,7 @@
     gap: 1rem;
 }
 
-.country-search h3 {
+label {
     margin: 0;
     text-align: center;
     font-size: 1.3rem;
@@ -82,7 +82,6 @@
 }
 
 .comparison-header p {
-    color: #555;
     font-size: 1rem;
 }
 
@@ -112,7 +111,7 @@ select {
     font-size: 1rem;
 }
 
-button {
+button, .comp-button {
     padding: 10px;
     border: 1px solid #111;
     background: white;
@@ -120,7 +119,7 @@ button {
     font-size: 1rem;
 }
 
-button:hover {
+button:hover, .comp-button:hover {
     background: #f5f5f5;
 }
 
@@ -132,7 +131,7 @@ button:hover {
     margin: auto;
 }
 
-.featured-section h2 {
+.featured-section h2{
     text-align: center;
     margin-bottom: 30px;
     font-size: 1.8rem;
@@ -161,13 +160,11 @@ button:hover {
 
 .card p {
     font-size: 0.9rem;
-    color: #555;
     line-height: 1.4;
 }
 
 .card .meta {
     font-size: 0.8rem;
-    color: #777;
     margin-bottom: 8px;
 }
 
@@ -214,13 +211,11 @@ button:hover {
     display: inline-block;
     margin-right: 10px;
     font-size: 0.85rem;
-    color: #555;
 }
 
 .modal-content p {
     margin-top: 15px;
     line-height: 1.6;
-    color: #333;
 }
 
 .modal-content button {

@@ -21,7 +21,7 @@
 <body>
     <header>
         <div class="branding">
-            <a href="index.html"><img src="images/logo.svg" alt=""></a>
+            <img src="images/logo.svg" alt="">
             <h1><a href="index.html">Economy Explorer</a></h1>  
         </div>
         <a id="menu"></a>
@@ -36,11 +36,11 @@
     <main>
 <section class="compare-header">
   <h1>Economy Comparison</h1>
-  <p>Select countries to compare economic performance over time.</p>
+  <h2>Select countries to compare economic performance over time.</h2>
 
   <div class="selectors">
-    <select id="countryA"></select>
-    <select id="countryB"></select>
+    <label for="countryA">I: <select id="countryA"></select></label>
+    <label for="countryB">II: <select id="countryB"></select></label>
     <button id="start-compare">Compare</button>
   </div>
 </section>

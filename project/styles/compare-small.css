@@ -2,11 +2,11 @@ h2{
     text-align: center;
     margin-top: 2rem;
 }
-p{
+p, .compare-header h2{
+    font-size: 1.3rem ;
     text-align: center;
     margin-bottom: 1rem;
-    color: #666;
-    
+    font-weight: 100;
 }
 .compare-header {
   text-align: center;

@@ -28,7 +28,7 @@
 <body>
     <header>
         <div class="branding">
-            <a href="index.html"><img src="images/logo.svg" alt=""></a>
+            <img src="images/logo.svg" alt="">
             <h1><a href="index.html">Economy Explorer</a></h1>  
         </div>
         <a id="menu"></a>
@@ -46,8 +46,7 @@
             <h2>Explore Available Countries</h2>
             <p>Click a highlighted country to view its economy.</p>
         <div class="hero-section">
-            <div class="map">             
-            </div>
+            <div class="map"></div>
         </div>
         </section>
 
@@ -60,10 +59,10 @@
             </div>
 
             <div class="country-search">
-                <h2>Select Country</h2>
-                <select id="countrySelect">
+                <label for="countrySelect">Select Country &nbsp;&nbsp;&nbsp;
+                    <select id="countrySelect">
                     <option value="">-- Choose a country --</option>
-                </select>
+                </select></label>
                 <button id="goBtn">Search</button>
             </div>
         </section>
@@ -76,10 +75,7 @@
             <div class="comparison-builder">
 
 
-                <button>
-                    <a href="compare.html">Compare Now</a>
-                </button>
-                </div>
+                    <a href="compare.html" class="comp-button">Compare Now</a>
             </div>
         </section>
 

@@ -1,0 +1,23 @@
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box {
+  background: #ffffff;
+  padding: 30px 40px;
+  width: 350px;
+  max-width: 90%;
+  text-align: center;
+  border: 1px solid gray;
+  margin: 2rem;
+}
+
+.box h2 {
+  margin-bottom: 20px;
+}
+
+#output p {
+  margin: 8px 0;
+  text-align: left;
+}

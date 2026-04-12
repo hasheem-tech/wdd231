@@ -12,7 +12,7 @@
     <!--Facebook Metatags-->
     <meta property="og:title" content="Home Page for Economy Explorer">
     <meta property="og:description" content="This page is the home page for Economy Explorer website. Made fo WDD231 project assignment.">
-    <meta property="og:image" content="https://hasheem-tech.github.io/wdd231/project/images/gcc_logo.jpg">
+    <meta property="og:image" content="https://hasheem-tech.github.io/wdd231/project/images/logo.jpg">
     <meta property="og:url" content="https://hasheem-tech.github.io/wdd231/project/index.html">
     <meta property="og:type" content="website">
 
@@ -29,15 +29,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!--Mapel.js for interactable map-->
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js" charset="utf-8"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.2.0/js/jquery.mapael.min.js" ></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.2.0/js/maps/world_countries.js" ></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.2.0/js/jquery.mapael.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.2.0/js/maps/world_countries.js" ></script>  
 
     <!--Scripts-->
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/visitmemory.js" defer></script>
     <script src="scripts/home.js" defer></script>
+    
 </head>
 
 <body>
@@ -56,7 +58,12 @@
         </nav>
     </header>
     <main>
-
+        <div id="visit-modal" class="modal hidden">
+            <div class="vist-modal-content">
+                <p id="visit-message"></p>
+                <button id="close-visit-modal">Close</button>
+            </div>
+        </div>
         <section class="map-container">
             <h2>Explore Available Countries</h2>
             <p>Click a highlighted country to view its economy.</p>

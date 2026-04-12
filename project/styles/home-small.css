@@ -1,4 +1,15 @@
-
+#visit-modal{
+   z-index: 1000; 
+}
+.vist-modal-content{
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid black;
+}
+#close-visit-modal{
+    padding: 5px 8px;
+    margin-top: 10px;
+}
 .map-container{
     width: 100%;
     display: flex;
@@ -220,7 +231,7 @@ button:hover, .comp-button:hover {
 
 .modal-content button {
     margin-top: 20px;
-    padding: 8px 12px;
+    padding: 5px 8px;
     border: 1px solid black;
     background: white;
     cursor: pointer;

@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Thank You</title>
     <link rel="shortcut icon" href="images/favicon1.ico" type="image/x-icon">
 
 
     <meta name="author" content="Hasheem Naveed">
-    <meta name="description" content="This page is the contact page for Economy Explorer website. Made fo WDD231 project assignment.">
+    <meta name="description" content="This page is the action page after form submission for Economy Explorer website. Made fo WDD231 project assignment.">
     <!--Facebook Metatags-->
-    <meta property="og:title" content="Contact Page for Economy Explorer">
-    <meta property="og:description" content="This page is the Contact page for Economy Explorer website. Made fo WDD231 project assignment.">
+    <meta property="og:title" content="Action page after form submission for Economy Explorer">
+    <meta property="og:description" content="This page is the action page after form submission for Economy Explorer website. Made fo WDD231 project assignment.">
     <meta property="og:image" content="https://hasheem-tech.github.io/wdd231/project/images/logo.jpg">
-    <meta property="og:url" content="https://hasheem-tech.github.io/wdd231/project/contact.html">
+    <meta property="og:url" content="https://hasheem-tech.github.io/wdd231/project/thankyou.html">
     <meta property="og:type" content="website">
     <!--Styling-->
     <link rel="stylesheet" href="styles/navigation-small.css">
     <link rel="stylesheet" href="styles/navigation-large.css">
-    <link rel="stylesheet" href="styles/contact-large.css">
+    <link rel="stylesheet" href="styles/thankyou.css">
     
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,47 +45,14 @@
         </nav>
     </header>
     <main>
-        <section class="contact-section">
-
-  <div class="contact-header">
-    <h2>Contact & Contribute</h2>
-    <p>
-      Have a question, correction, or want to contribute historical economic data or events?
-      We’d love to hear from you.
-    </p>
-  </div>
-
-  <div class="contact-container">
-
-    <form class="contact-form" method="get" action="thankyou.html">
-
-      <label for="name">Name</label>
-      <input name="name" id="name" type="text" placeholder="Your name" required>
-
-      <label for="email">Email</label>
-      <input name="email" id="email" type="email" placeholder="forexample@email.com" required>
-
-      <label for="select">Purpose</label>
-      <select name="select" id="select">
-        <option>General Inquiry</option>
-        <option>Data Correction</option>
-        <option>Suggest an Economic Event</option>
-        <option>Other</option>
-      </select>
-
-      <label for="message">Message</label>
-      <textarea name="message" required id="message" rows="6" placeholder="Write your message..."></textarea>
-
-      <button type="submit">Send Message</button>
-
-    </form>
-
-  </div>
-
-</section>
+        <div class="box">
+        <h2>Thank You for Submission</h2>
+        <div id="output"></div>
+        </div>
     </main>
 
-<footer class="site-footer">
+
+    <footer class="site-footer">
 
   <div class="footer-container">
 

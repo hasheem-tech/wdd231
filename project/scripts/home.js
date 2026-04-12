@@ -155,11 +155,17 @@ function openModal(index) {
   document.getElementById("modal-article").innerText = event.article;
 
   document.getElementById("modal").classList.remove("hidden");
+
 }
 
 function closeModal() {
   document.getElementById("modal").classList.add("hidden");
 }
 
+const modal = document.getElementById("modal");
+modal.addEventListener("click", closeModal);
 
-
+const modalContent = document.querySelector(".modal-content");
+modalContent.addEventListener("click", (e) => {
+    e.stopPropagation();
+});

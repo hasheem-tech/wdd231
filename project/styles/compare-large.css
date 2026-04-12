@@ -1,0 +1,10 @@
+@media (min-width:500px){
+  .chart-tile{
+    max-width: 450px;
+  }
+}
+@media (min-width:1000px){
+  .charts-wrapper {
+  grid-template-columns: 1fr 1fr;
+}
+}

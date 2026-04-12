@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Ecomony Explorer</title>
+    <link rel="shortcut icon" href="images/favicon1.ico" type="image/x-icon">
+
+    <!--Styling-->
+    <link rel="stylesheet" href="styles/navigation-small.css">
+    <link rel="stylesheet" href="styles/navigation-large.css">
+    <link rel="stylesheet" href="styles/home-small.css">
+    <link rel="stylesheet" href="styles/home-large.css">
+
+
+    <!--Mapel.js for interactable map-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.2.0/js/jquery.mapael.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.2.0/js/maps/world_countries.js" ></script>  
+
+    <!--Scripts-->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="branding">
+            <a href="index.html"><img src="images/logo.svg" alt=""></a>
+            <h1><a href="index.html">Economy Explorer</a></h1>  
+        </div>
+        <a id="menu"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="compare.html">Economy Comparison</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="map-container">
+            <h2>Explore Available Countries</h2>
+            <p>Click a highlighted country to view its economy.</p>
+        <div class="hero-section">
+            <div class="map">             
+            </div>
+        </div>
+        </section>
+
+        <section class="description-container">
+            <div class="website-description">
+                <h2>Understanding the World Economy</h2>
+                <p>
+                    The site provides an interactive platform to explore country-specific economic data, trends, key indicators, and stories behind major events affecting GDP and other economic measures. Users can compare economies, view historical trends, and explore interactive visualizations to understand global economic patterns.
+                </p>
+            </div>
+
+            <div class="country-search">
+                <h2>Select Country</h2>
+                <select id="countrySelect">
+                    <option value="">-- Choose a country --</option>
+                </select>
+                <button id="goBtn">Search</button>
+            </div>
+        </section>
+        <section class="comparison-section">
+            <div class="comparison-header">
+                <h2>Compare Two Economies</h2>
+                <p>Select countries and explore how their economies evolve side by side.</p>
+            </div>
+
+            <div class="comparison-builder">
+
+
+                <button>
+                    <a href="compare.html">Compare Now</a>
+                </button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="featured-section">
+
+            <h2>Featured Economic Stories</h2>
+
+            <div class="carousel" id="carousel"></div>
+
+</section>
+    </main>
+<footer class="site-footer">
+
+  <div class="footer-container">
+
+    <div class="footer-brand">
+      <h3>Economy Explorer</h3>
+      <p>
+        An interactive platform to explore global economic trends,
+        historical events, and country comparisons.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="compare.html">Economy Comparison</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-info">
+      <h4>Data Sources</h4>
+      <p>World Bank • Summaries from ChatGPT</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Economy Explorer. All rights reserved.</p>
+  </div>
+
+</footer>
+
+<div id="modal" class="modal hidden">
+
+  <div class="modal-content">
+
+    <div class="modal-header">
+      <h2 id="modal-title"></h2>
+      <span id="modal-country"></span>
+      <span id="modal-years"></span>
+    </div>
+
+    <hr>
+
+    <p id="modal-article"></p>
+
+    <button onclick="closeModal()">Close</button>
+
+    </div>
+
+</div>
+</body>
+</html>

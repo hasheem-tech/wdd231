@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="shortcut icon" href="images/favicon1.ico" type="image/x-icon">
+
+    <!--Styling-->
+    <link rel="stylesheet" href="styles/navigation-small.css">
+    <link rel="stylesheet" href="styles/navigation-large.css">
+    <link rel="stylesheet" href="styles/country-small.css">
+    <link rel="stylesheet" href="styles/country-large.css">
+
+    <!--Scripts-->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/country.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="branding">
+            <a href="index.html"><img src="images/logo.svg" alt=""></a>
+            <h1><a href="index.html">Economy Explorer</a></h1>
+        </div>
+        <a id="menu"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="compare.html">Economy Comparison</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="introduction">
+        <h1 id="country_name"></h1>
+        <p id="economy_summary"></p>
+      </section>
+      <section class="gdp-container">
+        <div class="chart-container">
+        <canvas id="gdpChart"></canvas>
+        </div>
+        <div class="gdp-description">
+          <h2>What is GDP?</h2>
+          <p>
+          GDP (Gross Domestic Product) represents the total value of goods and services produced within a country. 
+          It is one of the most important indicators of economic strength and overall development.
+          </p>
+          <p>
+          Tracking GDP over time helps identify growth patterns, economic crises, and recovery periods. 
+          Sudden drops often reflect major disruptions, while steady increases indicate long-term stability and expansion.
+          </p>
+        </div>
+      </section>
+      
+      <section class="insights-section">
+        <h2>Economic Highlights</h2>
+        <div id="insightsContainer" class="insights-grid"></div>
+      </section>
+
+<section class="metrics-section">
+
+  <div class="section-header">
+    <h2>Economic Performance Trends</h2>
+    <p>
+      This section shows how key economic indicators evolve over time.
+      Instead of focusing on total size alone, it highlights growth, stability,
+      inflation pressures, and structural changes in the economy.
+    </p>
+  </div>
+
+  <div class="metric-tile">
+    <div class="metric-text">
+      <h3>GDP Growth Rate (%)</h3>
+      <p>Measures how fast the economy is expanding or contracting each year.</p>
+    </div>
+    <canvas id="gdpGrowthChart"></canvas>
+  </div>
+
+  <div class="metric-tile">
+    <div class="metric-text">
+      <h3>GDP Per Capita</h3>
+      <p>Reflects average economic output per person and living standards.</p>
+    </div>
+    <canvas id="gdpPerCapitaChart"></canvas>
+  </div>
+
+  <div class="metric-tile">
+    <div class="metric-text">
+      <h3>Population</h3>
+      <p>Shows demographic changes affecting labor and consumption capacity.</p>
+    </div>
+    <canvas id="populationChart"></canvas>
+  </div>
+
+  <div class="metric-tile">
+    <div class="metric-text">
+      <h3>Trade (% of GDP)</h3>
+      <p>Indicates how integrated the economy is with global markets.</p>
+    </div>
+    <canvas id="tradeChart"></canvas>
+  </div>
+
+  <div class="metric-tile">
+    <div class="metric-text">
+      <h3>Inflation Rate (%)</h3>
+      <p>Tracks price stability. High inflation signals economic stress or overheating.</p>
+    </div>
+    <canvas id="inflationChart"></canvas>
+  </div>
+
+</section>
+
+<section class="stories-section">
+
+      <h2>Country's Economic Stories</h2>
+
+          <div class="carousel" id="carousel"></div>
+
+</section>
+    </main>
+<footer class="site-footer">
+
+  <div class="footer-container">
+
+    <div class="footer-brand">
+      <h3>Economy Explorer</h3>
+      <p>
+        An interactive platform to explore global economic trends,
+        historical events, and country comparisons.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="compare.html">Economy Comparison</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-info">
+      <h4>Data Sources</h4>
+      <p>World Bank • Summaries from ChatGPT</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Economy Explorer. All rights reserved.</p>
+  </div>
+
+</footer>
+
+
+<div id="modal" class="modal hidden">
+
+  <div class="modal-content">
+
+    <div class="modal-header">
+      <h2 id="modal-title"></h2>
+      <span id="modal-country"></span>
+      <span id="modal-years"></span>
+    </div>
+
+    <hr>
+
+    <p id="modal-article"></p>
+
+    <button onclick="closeModal()">Close</button>
+
+    </div>
+
+</div>
+</body>
+</html>

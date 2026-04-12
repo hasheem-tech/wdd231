@@ -1,0 +1,13 @@
+@media (min-width:1000px){
+  .gdp-container{
+  grid-template-columns: 1fr 1fr;
+  }
+.chart-container {
+  width: 600px;
+  height: 400px;
+}
+.insights-grid {
+  grid-template-columns: 1fr 1fr;
+
+}
+}

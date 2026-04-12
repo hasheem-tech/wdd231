@@ -1,0 +1,261 @@
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding: 40px 20px;
+}
+
+#country_name {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+#economy_summary {
+  font-size: 1.2rem;
+  max-width: 700px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.gdp-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2rem;
+  place-items: center;
+}
+.chart-container {
+  max-width: 600px;
+  height: 400px;
+}
+
+#gdpChart {
+  width: 100% !important;
+  height: 100% !important; 
+}
+
+
+.gdp-description p{
+  line-height: 1.6;
+}
+
+
+.insights-section {
+  padding: 40px 20px;
+}
+.insights-section h2{
+  margin: 1rem;
+}
+
+.insights-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+/* Card */
+.insight-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 15px;
+  transition: 0.2s ease;
+}
+
+.insight-card:hover {
+  transform: translateY(-2px);
+  border-color: #ddd;
+}
+
+.insight-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.insight-desc {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+/* small badge */
+.insight-meta {
+  font-size: 0.75rem;
+  color: #888;
+}
+
+
+.metrics-section {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.section-header p {
+  color: #555;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 0.95rem;
+}
+
+.metric-tile {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 14px;
+  padding: 25px;
+  margin-bottom: 25px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* text becomes compact + centered */
+.metric-text {
+  text-align: center;
+  margin-bottom: 15px;
+  max-width: 700px;
+}
+
+.metric-text h3 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.metric-text p {
+  color: #666;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+
+.metric-tile canvas {
+  width: 100% !important;
+  max-width: 750px; 
+  height: 300px !important;
+}
+
+
+.stories-section {
+    padding: 80px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.stories-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+.carousel {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scroll-snap-type: x mandatory;
+}
+
+.card {
+    min-width: 280px;
+    border: 1px solid #ddd;
+    padding: 16px;
+    background: white;
+    scroll-snap-align: start;
+}
+
+.card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+.card .meta {
+    font-size: 0.8rem;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+.card button {
+    margin-top: 12px;
+    padding: 8px 10px;
+    border: 1px solid #000;
+    background: white;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #f5f5f5;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.modal-content {
+    background: white;
+    width: 90%;
+    max-width: 700px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+.modal-header h2 {
+    margin-bottom: 5px;
+}
+
+.modal-header span {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+.modal-content p {
+    margin-top: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.modal-content button {
+    margin-top: 20px;
+    padding: 8px 12px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+}
+
+

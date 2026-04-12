@@ -1,0 +1,254 @@
+{
+    "China" :
+    [{
+    "country": "China",
+    "start_year": 1958,
+    "end_year": 1962,
+    "title": "Great Leap Forward and Economic Disruption",
+    "impact": "severely negative",
+    "summary": "China experienced a major economic and agricultural crisis during the Great Leap Forward, leading to sharp declines in output and living standards across rural regions.",
+    "global_context": "This period took place during the Cold War era, when China was relatively isolated from Western economies and global trade was limited, meaning internal policy decisions had an especially large impact on economic outcomes.",
+    "article": "The Great Leap Forward was an ambitious campaign initiated in 1958 aimed at rapidly transforming China from an agrarian society into an industrialized economy. The strategy focused heavily on collectivization of agriculture and rapid industrial output growth through communes and local production targets. However, in practice, these policies led to severe economic mismanagement. Agricultural productivity declined sharply as farming incentives were disrupted, and unrealistic production quotas led to distorted reporting and inefficient resource allocation. Combined with poor planning and adverse environmental conditions, the situation escalated into one of the most severe famines in modern history. Economic output contracted significantly during this period, particularly in agriculture, and living standards fell drastically. Rural populations were especially affected, facing widespread food shortages and hardship. This period is often viewed as a critical example of the risks associated with rapid centralized economic restructuring without flexible feedback mechanisms or accurate data reporting.",
+    "featured": true
+  },
+
+  {
+    "country": "China",
+    "start_year": 1966,
+    "end_year": 1976,
+    "title": "Cultural Revolution and Economic Stagnation",
+    "impact": "negative",
+    "summary": "The Cultural Revolution created widespread political and institutional instability, which severely disrupted economic activity, education, and industrial development over a decade.",
+    "global_context": "The Cultural Revolution occurred during a time of Cold War ideological tension, when many countries were undergoing political realignments, but China experienced internal disruption rather than external economic integration.",
+    "article": "The Cultural Revolution, launched in 1966 under Mao Zedong, was primarily an ideological movement intended to reinforce communist principles and remove perceived capitalist and traditional influences from Chinese society. However, it resulted in widespread political and social chaos. Economic institutions were heavily disrupted as experienced professionals, managers, and intellectuals were removed from their positions or targeted during political campaigns. This led to significant declines in productivity across both industrial and administrative sectors. Education systems were also severely affected, reducing the development of skilled labor and slowing long-term technological progress. Industrial output became inconsistent, and economic planning suffered due to institutional breakdowns and shifting political priorities. Although the economy did not completely collapse, growth stagnated significantly compared to global peers. This decade is widely regarded as a lost period in China’s economic development, delaying modernization efforts until reforms began in the late 1970s."
+  },
+
+  {
+    "country": "China",
+    "start_year": 1978,
+    "end_year": 1991,
+    "title": "Economic Reforms and Opening Up",
+    "impact": "strongly positive",
+    "summary": "China introduced major market-oriented reforms under Deng Xiaoping, shifting away from central planning and initiating sustained economic growth.",
+    "global_context": "This period aligned with global trends of economic liberalization, deregulation, and increasing international trade, with many economies moving toward market-oriented systems.",
+    "article": "Starting in 1978, China implemented a series of transformative economic reforms under the leadership of Deng Xiaoping. These reforms marked a fundamental shift from a strictly centrally planned economy toward a more market-oriented system. One of the earliest changes was the introduction of the household responsibility system in agriculture, which allowed farmers to retain surplus production and significantly improved agricultural efficiency. Special Economic Zones were established in coastal regions to attract foreign investment and experiment with market mechanisms. Over time, these reforms expanded into industrial and trade sectors, encouraging foreign direct investment and improving productivity across the economy. Rural incomes increased, industrial output expanded rapidly, and export-oriented manufacturing began to take shape. This period laid the foundation for China’s long-term economic transformation and its emergence as a major global economy.",
+    "featured": true
+  },
+
+  {
+    "country": "China",
+    "start_year": 1992,
+    "end_year": 2001,
+    "title": "Acceleration of Industrialization and Global Integration",
+    "impact": "strongly positive",
+    "summary": "China deepened its economic reforms and strengthened global trade integration, leading to rapid industrial expansion and increased foreign investment.",
+    "global_context": "After the end of the Cold War, global trade expanded rapidly, multinational corporations began globalizing production, and emerging markets became increasingly integrated into global supply chains.",
+    "article": "During the 1990s, China significantly accelerated its reform process and deepened its integration into the global economy. Market liberalization policies were expanded, and more Special Economic Zones were established to encourage trade and investment. Foreign direct investment surged, particularly in manufacturing industries, as multinational companies began relocating production to China due to its cost advantages and growing infrastructure. At the same time, state-owned enterprises underwent restructuring to improve efficiency and competitiveness. Industrial production grew rapidly, and China became an increasingly important exporter in global markets. Urbanization accelerated as millions moved to cities in search of industrial employment. By the end of this period, China had firmly positioned itself as a central hub in global manufacturing networks, setting the stage for even greater expansion following entry into the World Trade Organization."
+  },
+
+  {
+    "country": "China",
+    "start_year": 2001,
+    "end_year": 2008,
+    "title": "WTO Entry and Export Boom",
+    "impact": "strongly positive",
+    "summary": "China’s accession to the World Trade Organization triggered a major export boom, transforming it into a global manufacturing powerhouse.",
+    "global_context": "This period coincided with peak globalization, rapid expansion of global supply chains, and strong consumer demand in developed economies like the United States and Europe.",
+    "article": "China’s entry into the World Trade Organization in 2001 marked a turning point in its economic development and global integration. Membership opened access to international markets on a much larger scale and significantly boosted export opportunities. Manufacturing sectors such as electronics, textiles, machinery, and consumer goods expanded rapidly as global demand for low-cost production increased. Foreign investment also surged as multinational corporations established large-scale production facilities within China to take advantage of its labor force and improving infrastructure. This period saw China become known as the 'world’s factory', with export-led growth becoming the dominant driver of the economy. Urbanization continued at a rapid pace, with millions of rural workers migrating to industrial cities. The combination of trade liberalization, foreign investment, and industrial scaling led to one of the fastest periods of economic growth in modern history."
+  },
+
+  {
+    "country": "China",
+    "start_year": 2008,
+    "end_year": 2012,
+    "title": "Global Financial Crisis Response",
+    "impact": "mixed but stabilizing",
+    "summary": "China weathered the global financial crisis through a large-scale stimulus program that maintained high growth but increased long-term financial risks.",
+    "global_context": "The global financial crisis triggered a worldwide recession, collapsing demand in major export markets and forcing governments around the world to adopt emergency stimulus policies.",
+    "article": "The global financial crisis of 2008 led to a sharp decline in international demand, particularly affecting China’s export-driven economy. In response, the Chinese government implemented a massive fiscal stimulus package focused on infrastructure development, credit expansion, and industrial support. This included large investments in transportation networks, housing, and energy projects. The policy successfully stabilized economic growth and prevented a major slowdown, allowing China to maintain relatively high GDP growth compared to many advanced economies. However, the rapid expansion of credit and investment also contributed to rising debt levels and concerns about financial imbalances in later years. Despite these risks, the short-term response reinforced China’s ability to manage economic shocks through coordinated state intervention."
+  },
+
+  {
+    "country": "China",
+    "start_year": 2013,
+    "end_year": 2020,
+    "title": "Rebalancing and Transition to Services Economy",
+    "impact": "moderately positive",
+    "summary": "China began shifting from export-led manufacturing growth toward domestic consumption, services, and innovation-driven development.",
+    "global_context": "Global trade growth slowed after the 2008 crisis, while economies increasingly shifted toward digital services, automation, and consumption-driven models.",
+    "article": "From the early 2010s onward, China began shifting its economic model away from heavy reliance on exports and manufacturing toward a more balanced structure driven by domestic consumption, services, and innovation. Policymakers focused on reducing industrial overcapacity and encouraging more sustainable long-term growth. At the same time, rising incomes and urban middle-class expansion supported strong consumer spending. New industries such as technology, e-commerce, finance, and digital services grew rapidly, reshaping the structure of the economy. Although overall GDP growth gradually slowed compared to earlier decades, the economy became more diversified and less dependent on external demand. This period marked an important structural transition toward a more mature and consumption-driven economic system."
+  },
+
+  {
+    "country": "China",
+    "start_year": 2020,
+    "end_year": 2022,
+    "title": "COVID-19 Disruption and Recovery",
+    "impact": "negative short-term, recovery-driven",
+    "summary": "The COVID-19 pandemic caused significant short-term disruptions in production and consumption, followed by a relatively strong recovery due to rapid containment and industrial resilience.",
+    "global_context": "The COVID-19 pandemic caused a global economic shutdown, disrupting supply chains, reducing consumer demand, and forcing governments worldwide to implement emergency fiscal and monetary support.",
+    "article": "The COVID-19 pandemic created widespread disruptions across China’s economy, particularly during periods of strict lockdowns and mobility restrictions. Manufacturing activity slowed temporarily, domestic consumption declined, and global supply chains experienced interruptions. However, China’s aggressive containment strategy allowed for relatively fast stabilization compared to many other economies. Industrial production rebounded as factories reopened, and export demand remained strong due to global reliance on manufactured goods during the pandemic. While the short-term impact was clearly negative, the economy demonstrated resilience, and recovery was supported by both industrial strength and policy coordination. The episode highlighted both the vulnerability of globalized systems and the adaptability of China’s industrial base under stress."
+  }
+],
+"United States": 
+[
+  {
+    "country": "United States",
+    "start_year": 1960,
+    "end_year": 1973,
+    "title": "Post-War Expansion and Economic Stability",
+    "impact": "strongly positive",
+    "summary": "The United States experienced continued economic growth, low unemployment, and rising living standards during the final phase of the post-war boom.",
+    "global_context": "This period was characterized by strong global economic growth, expanding international trade, and relative geopolitical stability among Western economies during the Cold War.",
+    "article": "During the 1960s and early 1970s, the United States continued to benefit from the momentum of the post-World War II economic expansion. Industrial production remained strong, supported by high consumer demand for goods such as automobiles, appliances, and housing. Government spending on infrastructure, education, and social programs further contributed to economic growth. Unemployment remained relatively low, and wages increased steadily, helping to expand the middle class. The U.S. also maintained a dominant position in the global economy, supported by its industrial capacity and leadership in international financial systems. However, toward the early 1970s, underlying pressures such as rising inflation and fiscal strain began to emerge, setting the stage for economic challenges in the following decade."
+  },
+
+  {
+    "country": "United States",
+    "start_year": 1973,
+    "end_year": 1982,
+    "title": "Stagflation and Oil Shocks",
+    "impact": "negative",
+    "summary": "The U.S. economy faced high inflation, slow growth, and rising unemployment due to oil crises and structural economic challenges.",
+    "global_context": "Oil supply disruptions and geopolitical tensions led to global energy crises, causing inflation and economic instability across many countries.",
+    "article": "Beginning in the early 1970s, the United States entered a period of stagflation, a rare combination of high inflation and stagnant economic growth. The oil shocks of 1973 and 1979 caused sharp increases in energy prices, raising production costs across industries and reducing consumer purchasing power. At the same time, economic growth slowed and unemployment increased, creating a difficult policy environment. Traditional economic tools proved less effective in addressing both inflation and stagnation simultaneously. Industrial productivity declined, and business confidence weakened. The Federal Reserve eventually responded with aggressive interest rate hikes in the early 1980s to control inflation, which led to a recession but ultimately restored price stability.",
+    "featured": true
+  },
+
+  {
+    "country": "United States",
+    "start_year": 1983,
+    "end_year": 2000,
+    "title": "Expansion, Deregulation, and Technology Boom",
+    "impact": "strongly positive",
+    "summary": "The U.S. economy experienced long-term expansion driven by deregulation, financial growth, and the rapid rise of the technology sector.",
+    "global_context": "Globalization accelerated during this period, with increasing trade integration, financial liberalization, and the emergence of digital technologies shaping the global economy.",
+    "article": "Following the recession of the early 1980s, the United States entered a prolonged period of economic expansion. Economic policies emphasizing deregulation, tax reforms, and market liberalization contributed to increased investment and business activity. Financial markets grew significantly, and innovation in computing and information technology began transforming productivity. The 1990s saw the rise of the internet and digital industries, leading to the emergence of new business models and rapid growth in the technology sector. Unemployment declined, inflation remained relatively stable, and overall economic performance was strong. By the end of the decade, the economy was experiencing a technology-driven boom, particularly in internet-based companies, setting the stage for the dot-com bubble."
+  },
+
+  {
+    "country": "United States",
+    "start_year": 2000,
+    "end_year": 2003,
+    "title": "Dot-Com Bust and Mild Recession",
+    "impact": "negative",
+    "summary": "The collapse of the dot-com bubble led to a sharp decline in stock markets and a mild economic recession in the early 2000s.",
+    "global_context": "Global financial markets experienced volatility following the burst of speculative investments in technology companies, affecting investor confidence worldwide.",
+    "article": "In the late 1990s, rapid growth in internet-based companies led to a speculative bubble in technology stocks. Many firms were highly valued despite lacking sustainable profits. Around 2000, this bubble burst, leading to a sharp decline in stock market valuations, particularly in the technology sector. Investment dropped significantly, and many companies went bankrupt. The broader economy experienced a mild recession, with reduced business spending and slower growth. The Federal Reserve responded by lowering interest rates to stimulate economic activity, helping to stabilize the economy in the following years."
+  },
+
+  {
+    "country": "United States",
+    "start_year": 2007,
+    "end_year": 2009,
+    "title": "Global Financial Crisis",
+    "impact": "severely negative",
+    "summary": "A housing market collapse and financial instability triggered the most severe economic crisis since the Great Depression.",
+    "global_context": "The financial crisis spread globally through interconnected banking systems, leading to recessions, financial instability, and coordinated policy responses worldwide.",
+    "article": "The global financial crisis originated in the U.S. housing market, where excessive lending and speculative investment in mortgage-backed securities created a financial bubble. When housing prices began to fall, many borrowers defaulted, leading to significant losses for financial institutions. Major banks and financial firms faced collapse, triggering a broader financial panic. Credit markets froze, businesses reduced investment, and unemployment rose sharply. In response, the U.S. government and Federal Reserve implemented emergency measures, including financial bailouts and monetary stimulus, to stabilize the system. The crisis had long-lasting effects on economic policy, regulation, and global financial stability."
+  },
+
+  {
+    "country": "United States",
+    "start_year": 2010,
+    "end_year": 2019,
+    "title": "Post-Crisis Recovery and Expansion",
+    "impact": "moderately positive",
+    "summary": "The U.S. economy experienced a steady recovery marked by job growth, low interest rates, and expansion in technology-driven industries.",
+    "global_context": "Following the financial crisis, many economies adopted low interest rate policies and stimulus measures, contributing to a prolonged but moderate global recovery.",
+    "article": "After the global financial crisis, the United States entered a period of gradual economic recovery and expansion. The Federal Reserve maintained low interest rates and used unconventional monetary policies to support growth. Employment steadily improved, and unemployment declined over time. Technology companies played a major role in driving innovation and economic expansion, particularly in areas such as digital services and platforms. While growth was stable, it was slower compared to earlier decades. Concerns about income inequality, wage stagnation, and dependence on monetary policy remained key challenges during this period.",
+    "featured": true
+  },
+
+  {
+    "country": "United States",
+    "start_year": 2020,
+    "end_year": 2022,
+    "title": "COVID-19 Shock and Rapid Recovery",
+    "impact": "mixed but volatile",
+    "summary": "The COVID-19 pandemic caused a sharp economic contraction followed by a rapid recovery supported by large-scale stimulus measures.",
+    "global_context": "The pandemic caused a synchronized global economic shutdown, disrupting supply chains, labor markets, and consumption patterns worldwide.",
+    "article": "The COVID-19 pandemic led to a sudden and severe contraction in the U.S. economy as lockdowns and health concerns reduced economic activity. Businesses closed, unemployment surged, and consumer spending declined sharply. In response, the government implemented large fiscal stimulus programs, including direct payments and business support, while the Federal Reserve took aggressive action to stabilize financial markets. As restrictions eased, economic activity rebounded quickly, supported by strong consumer demand and policy support. However, the recovery was uneven and accompanied by rising inflation and supply chain disruptions, highlighting structural challenges within the economy."
+  }
+],
+"Germany":[
+  {
+    "country": "Germany",
+    "start_year": 1960,
+    "end_year": 1973,
+    "title": "Post-War Economic Miracle and Industrial Expansion",
+    "impact": "strongly positive",
+    "summary": "West Germany experienced rapid economic growth, industrial expansion, and rising living standards during the final phase of its post-war economic boom.",
+    "global_context": "This period was marked by strong global economic growth, expanding international trade, and stability among Western economies during the Cold War.",
+    "article": "During the 1960s and early 1970s, West Germany continued to experience the effects of its post-war economic recovery, often referred to as the 'Wirtschaftswunder' or economic miracle. Industrial production expanded rapidly, driven by strong exports, a skilled labor force, and effective economic policies. Manufacturing sectors such as automobiles, machinery, and chemicals became globally competitive. Rising wages and low unemployment contributed to improved living standards and the growth of a strong middle class. At the same time, East Germany followed a centrally planned economic system, achieving industrial growth but with lower efficiency and limited consumer prosperity. The contrast between the two systems became increasingly evident during this period."
+  },
+
+  {
+    "country": "Germany",
+    "start_year": 1973,
+    "end_year": 1989,
+    "title": "Oil Crisis and Economic Divergence",
+    "impact": "mixed but challenging",
+    "summary": "West Germany faced slower growth and inflation following oil shocks, while East Germany struggled with inefficiencies in its planned economy.",
+    "global_context": "Global oil crises and economic instability affected both developed and developing economies, leading to inflation, slower growth, and structural adjustments worldwide.",
+    "article": "The oil shocks of the 1970s significantly affected West Germany, increasing energy costs and contributing to inflation and slower economic growth. Despite these challenges, West Germany managed to maintain relatively strong industrial performance and export competitiveness compared to other advanced economies. Meanwhile, East Germany continued operating under a centrally planned system, but structural inefficiencies became more apparent over time. Limited innovation, resource misallocation, and lower productivity hindered economic performance. By the 1980s, the economic gap between East and West Germany had widened considerably, reflecting the broader differences between market-based and centrally planned economies."
+  },
+
+  {
+    "country": "Germany",
+    "start_year": 1989,
+    "end_year": 1995,
+    "title": "Reunification and Economic Transition",
+    "impact": "mixed but transformative",
+    "summary": "German reunification led to major economic restructuring, with significant costs and challenges in integrating East and West economies.",
+    "global_context": "The end of the Cold War led to the collapse of centrally planned economies across Eastern Europe, creating a wave of economic transitions toward market systems.",
+    "article": "The fall of the Berlin Wall in 1989 and the subsequent reunification of Germany in 1990 marked a historic turning point. The integration of East Germany into a market-based system required large-scale economic restructuring. Many state-owned enterprises in the East were uncompetitive and either restructured or closed, leading to significant job losses and economic disruption in the region. The government invested heavily in infrastructure, social programs, and economic support to facilitate the transition. While reunification strengthened Germany politically and economically in the long term, the short-term costs were substantial, and disparities between eastern and western regions persisted for years.",
+    "featured": true
+  },
+
+  {
+    "country": "Germany",
+    "start_year": 1996,
+    "end_year": 2007,
+    "title": "European Integration and Export-Led Growth",
+    "impact": "strongly positive",
+    "summary": "Germany strengthened its position as a leading export economy within the European Union, supported by structural reforms and industrial competitiveness.",
+    "global_context": "The expansion of the European Union and increasing globalization created new trade opportunities and deeper economic integration across Europe.",
+    "article": "During the late 1990s and early 2000s, Germany focused on strengthening its role within the European Union and improving economic competitiveness. Structural reforms, particularly in labor markets and social systems, helped increase efficiency and reduce unemployment over time. Germany became a leading exporter, particularly in high-quality manufacturing sectors such as automobiles, machinery, and engineering products. The introduction of the euro further integrated Germany into the European economy, facilitating trade and investment. By the mid-2000s, Germany had established itself as the economic engine of Europe, driven by strong exports and industrial strength.",
+    "featured": true
+  },
+
+  {
+    "country": "Germany",
+    "start_year": 2008,
+    "end_year": 2012,
+    "title": "Global Financial Crisis and Eurozone Challenges",
+    "impact": "moderately negative but resilient",
+    "summary": "Germany faced economic slowdown during the global financial crisis but recovered relatively quickly due to strong industrial capacity and exports.",
+    "global_context": "The global financial crisis and subsequent Eurozone debt crisis created economic instability across Europe, affecting banking systems, government finances, and trade.",
+    "article": "The global financial crisis of 2008 led to a decline in global demand, affecting Germany’s export-driven economy. Industrial output slowed, and economic growth weakened temporarily. However, Germany’s strong manufacturing base and fiscal discipline helped it recover more quickly than many other European countries. During the subsequent Eurozone debt crisis, Germany played a central role in supporting financial stability within the European Union. While growth was affected by reduced demand in European markets, Germany maintained relative economic resilience compared to its peers."
+  },
+
+  {
+    "country": "Germany",
+    "start_year": 2013,
+    "end_year": 2019,
+    "title": "Stable Growth and Industrial Leadership",
+    "impact": "moderately positive",
+    "summary": "Germany experienced stable economic growth supported by strong exports, industrial leadership, and low unemployment.",
+    "global_context": "Global economic growth remained moderate, with increasing importance of global trade, digital transformation, and interconnected supply chains.",
+    "article": "During the 2010s, Germany maintained its position as one of the world’s leading industrial economies. Exports remained a key driver of growth, particularly in automotive and engineering sectors. Unemployment reached relatively low levels, and economic stability was supported by strong institutions and fiscal discipline. However, challenges began to emerge, including slowing global trade, demographic pressures, and increasing competition in manufacturing. Despite these issues, Germany continued to demonstrate economic strength and stability within Europe."
+  },
+
+  {
+    "country": "Germany",
+    "start_year": 2020,
+    "end_year": 2022,
+    "title": "COVID-19 Disruption and Energy Challenges",
+    "impact": "negative short-term, recovery with challenges",
+    "summary": "The COVID-19 pandemic caused economic disruption, followed by recovery complicated by supply chain issues and energy shocks.",
+    "global_context": "The global pandemic disrupted economies worldwide, followed by supply chain constraints and rising energy prices, particularly in Europe.",
+    "article": "The COVID-19 pandemic led to a significant disruption in Germany’s economy, particularly affecting industrial production and exports. Lockdowns and restrictions reduced economic activity, while global supply chain disruptions impacted manufacturing. The government implemented fiscal support measures to stabilize businesses and employment. As the economy began to recover, new challenges emerged, including rising energy costs and supply chain constraints. Germany’s reliance on industrial exports made it particularly sensitive to global disruptions. Despite these challenges, the economy showed resilience, supported by strong institutions and policy responses."
+  }
+]
+}

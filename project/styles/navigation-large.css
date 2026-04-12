@@ -1,0 +1,32 @@
+@media (min-width:1000px){
+   #menu{
+        display: none;
+    }
+    header{
+    width: 100%;
+    padding: var(--div-padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.branding a{
+    font-size: 1.5rem;
+}
+.navigation.show{flex-direction: row;}
+
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        gap: 4rem;
+    }
+    .navigation li{
+        border-radius: 10px;
+        margin-right: 4rem;
+    }
+
+    .footer-brand p {
+    max-width: 300px;
+}
+}

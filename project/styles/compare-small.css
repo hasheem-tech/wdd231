@@ -22,17 +22,25 @@ p, .compare-header h2{
 .selectors {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   gap: 10px;
+  align-items: center;
 }
-
+@media (min-width:554px){
+  .selectors{
+    flex-direction: row;
+    align-items: center;
+  }
+}
 .selectors select,
 .selectors button {
   padding: 8px 12px;
   border-radius: 6px;
   border: 1px solid #ddd;
 }
-
-
+#start-compare{
+  width: 150px;
+}
 .comparison {
     padding: 3rem 1.5rem;
     background: #f7f9fc;

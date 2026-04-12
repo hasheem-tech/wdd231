@@ -6,19 +6,34 @@
     <title>Global Ecomony Explorer</title>
     <link rel="shortcut icon" href="images/favicon1.ico" type="image/x-icon">
 
+
+    <meta name="author" content="Hasheem Naveed">
+    <meta name="description" content="This page is the home page for Economy Explorer website. Made fo WDD231 project assignment. This website lets you dive into understanding economies of different countries throughout the world.">
+    <!--Facebook Metatags-->
+    <meta property="og:title" content="Home Page for Economy Explorer">
+    <meta property="og:description" content="This page is the home page for Economy Explorer website. Made fo WDD231 project assignment. This website lets you dive into understanding economies of different countries throughout the world.">
+    <meta property="og:image" content="https://hasheem-tech.github.io/wdd231/project/images/gcc_logo.jpg">
+    <meta property="og:url" content="https://hasheem-tech.github.io/wdd231/project/index.html">
+    <meta property="og:type" content="website">
+
+
     <!--Styling-->
     <link rel="stylesheet" href="styles/navigation-small.css">
     <link rel="stylesheet" href="styles/navigation-large.css">
     <link rel="stylesheet" href="styles/home-small.css">
     <link rel="stylesheet" href="styles/home-large.css">
 
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!--Mapel.js for interactable map-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.2.0/js/jquery.mapael.min.js" ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.2.0/js/maps/world_countries.js" ></script>  
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js" charset="utf-8"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js" charset="utf-8"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.2.0/js/jquery.mapael.min.js" ></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mapael/2.2.0/js/maps/world_countries.js" ></script>  
 
     <!--Scripts-->
     <script src="scripts/navigation.js" defer></script>
@@ -136,7 +151,7 @@
 
     <p id="modal-article"></p>
 
-    <button onclick="closeModal()">Close</button>
+    <button id="close-modal">Close</button>
 
     </div>
 

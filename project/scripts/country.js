@@ -360,9 +360,19 @@ function openModal(index) {
   document.getElementById("modal").classList.remove("hidden");
 }
 
+const closeModalBtn = document.getElementById("close-modal");
+closeModalBtn.addEventListener("click", closeModal);
+
 function closeModal() {
   document.getElementById("modal").classList.add("hidden");
 }
 
 
+const modal = document.getElementById("modal");
+modal.addEventListener("click", closeModal);
+
+const modalContent = document.querySelector(".modal-content");
+modalContent.addEventListener("click", (e) => {
+    e.stopPropagation();
+});
 

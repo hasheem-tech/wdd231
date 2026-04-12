@@ -162,6 +162,10 @@ function closeModal() {
   document.getElementById("modal").classList.add("hidden");
 }
 
+const closeModalBtn = document.getElementById("close-modal");
+closeModalBtn.addEventListener("click", closeModal);
+
+
 const modal = document.getElementById("modal");
 modal.addEventListener("click", closeModal);
 

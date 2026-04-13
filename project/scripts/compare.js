@@ -1,5 +1,4 @@
-/* ---------------- GLOBAL DATA ---------------- */
-
+import { insights } from "../data/insights.mjs";
 let economicData = [];
 const charts = {};
 
@@ -100,14 +99,12 @@ startCompareButton.onclick = function () {
 
 /* ---------------- TABLE + GRAPH FLOW ---------------- */
 
-async function ComparisonTable(countryA, countryB) {
-   const res = await fetch("data/insights.json");
-    const data = await res.json();
+function ComparisonTable(countryA, countryB) {
 
     const container = document.getElementById("comparison-grid");
 
-    const insightsA = data[countryA].insights;
-    const insightsB = data[countryB].insights;
+    const insightsA = insights?.[countryA]?.insights || [];
+    const insightsB = insights?.[countryB]?.insights || [];
 
     // collect all dimensions from both
     const dimensions = new Set([

@@ -1,3 +1,4 @@
+import { insights } from "../data/insights.mjs";
 const params = new URLSearchParams(window.location.search);
 const country = params.get("country");
 
@@ -8,11 +9,8 @@ const economy_summary = document.getElementById("economy_summary");
 
 country_name.innerText = country;
 
-async function getInsights(country){
-    const res = await fetch("data/insights.json");
-    const data = await res.json();
-
-    const summary = data[country].summary;
+function getInsights(country){
+    const summary = insights?.[country]?.summary || "No data available";
     economy_summary.innerText = summary;
 }
 
@@ -129,14 +127,9 @@ function renderGDP(country) {
   });
 }
 
-
-async function loadInsights(country) {
-  const res = await fetch("data/insights.json");
-  const data = await res.json();
-
-  const insights = data?.[country]?.insights || [];
-
-  renderInsights(insights);
+function loadInsights(country) {
+  const countryInsights = insights?.[country]?.insights || [];
+  renderInsights(countryInsights);
 }
 
 function renderInsights(insights) {

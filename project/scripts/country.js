@@ -310,14 +310,21 @@ loadData(country);
 let allEvents = [];
 
 async function loadEvents(country) {
-  const res = await fetch("data/events.json");
-  const data = await res.json();
+  try {
+    const res = await fetch("data/events.json");
 
-  allEvents = Object.values(data)
-    .flat()
-    .filter(e => e.country === country);
+    if (!res.ok) throw new Error("Failed to fetch events");
 
-  renderCarousel(allEvents);
+    const data = await res.json();
+
+    allEvents = Object.values(data)
+      .flat()
+      .filter(e => e.country === country);
+
+    renderCarousel(allEvents);
+  } catch (error) {
+    console.error("Error loading events:", error);
+  }
 }
 
 loadEvents(country);

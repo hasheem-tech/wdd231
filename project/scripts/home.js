@@ -112,16 +112,22 @@ goBtn.addEventListener("click", () => {
 let allFeaturedEvents = [];
 
 async function loadEvents() {
-  const res = await fetch("data/events.json");
-  const data = await res.json();
+  try {
+    const res = await fetch("data/events.json");
 
-  allFeaturedEvents = Object.values(data)
-    .flat()
-    .filter(e => e.featured === true);
+    if (!res.ok) throw new Error("Failed to fetch events");
 
-  renderCarousel(allFeaturedEvents);
+    const data = await res.json();
+
+    allFeaturedEvents = Object.values(data)
+      .flat()
+      .filter(e => e.featured === true);
+
+    renderCarousel(allFeaturedEvents);
+  } catch (error) {
+    console.error("Error loading featured events:", error);
+  }
 }
-
 loadEvents();
 
 function renderCarousel(events) {

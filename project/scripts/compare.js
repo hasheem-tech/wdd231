@@ -16,13 +16,16 @@ const metrics = [
 /* ---------------- LOAD DATA ---------------- */
 
 async function loadData() {
-  const res = await fetch("data/economic_data.json");
-  economicData = await res.json();
+  try {
+    const res = await fetch("data/economic_data.json");
+    economicData = await res.json();
 
-  populateDropdowns();
-  syncDropdowns();
+    populateDropdowns();
+    syncDropdowns();
+  } catch (error) {
+    console.error("Error loading data:", error);
+  }
 }
-
 loadData();
 
 /* ---------------- POPULATE DROPDOWNS ---------------- */

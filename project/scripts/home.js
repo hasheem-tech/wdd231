@@ -1,3 +1,4 @@
+import { insights } from "../data/insights.mjs";
 const hero = document.querySelector(".hero-section");
 $(function () {
         $(hero).mapael({
@@ -79,13 +80,10 @@ const countrySelect = document.getElementById("countrySelect");
 const goBtn = document.getElementById("goBtn");
 
 /* fetch and populate */
-async function loadCountries() {
-  const res = await fetch("data/insights.json");
-  const data = await res.json();
+function loadCountries() {
+    const countries = Object.keys(insights);
 
-  const countries = Object.keys(data);
-
-  countries.forEach(country => {
+    countries.forEach(country => {
     const option = document.createElement("option");
     option.value = country;
     option.innerText = country;

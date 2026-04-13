@@ -332,16 +332,32 @@ loadEvents(country);
 function renderCarousel(events) {
   const carousel = document.getElementById("carousel");
 
+  carousel.innerHTML = ""; // prevent duplicates
+
   events.forEach((event, index) => {
     const card = document.createElement("div");
     card.className = "card";
 
-    card.innerHTML = `
-      <div class="meta">${event.country} • ${event.start_year} - ${event.end_year}</div>
-      <h3>${event.title}</h3>
-      <p>${event.summary}</p>
-      <button onclick="openModal(${index})">See more</button>
-    `;
+    const meta = document.createElement("div");
+    meta.className = "meta";
+    meta.textContent = `${event.country} • ${event.start_year} - ${event.end_year}`;
+
+    const title = document.createElement("h3");
+    title.textContent = event.title;
+
+    const summary = document.createElement("p");
+    summary.textContent = event.summary;
+
+    const btn = document.createElement("button");
+    btn.textContent = "See more";
+
+    // proper event binding
+    btn.addEventListener("click", () => openModal(index));
+
+    card.appendChild(meta);
+    card.appendChild(title);
+    card.appendChild(summary);
+    card.appendChild(btn);
 
     carousel.appendChild(card);
   });

@@ -133,6 +133,9 @@ loadEvents();
 function renderCarousel(events) {
   const carousel = document.getElementById("carousel");
 
+  // optional: clear previous cards to avoid duplicates
+  carousel.innerHTML = "";
+
   events.forEach((event, index) => {
     const card = document.createElement("div");
     card.className = "card";
@@ -141,8 +144,12 @@ function renderCarousel(events) {
       <div class="meta">${event.country} • ${event.start_year} - ${event.end_year}</div>
       <h3>${event.title}</h3>
       <p>${event.summary}</p>
-      <button onclick="openModal(${index})">See more</button>
+      <button class="see-more-btn">See more</button>
     `;
+
+    // attach event listener properly
+    const btn = card.querySelector(".see-more-btn");
+    btn.addEventListener("click", () => openModal(index));
 
     carousel.appendChild(card);
   });
